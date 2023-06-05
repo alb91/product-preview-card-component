@@ -18,7 +18,7 @@ body {
 }
 .main {
   display: flex;
-  border-radius: 25px;
+  border-radius: 15px;
   overflow: hidden;
 }
 
@@ -94,6 +94,7 @@ body {
 @media (max-width: 375px) {
   .main {
     flex-direction: column;
+    margin: 15px;
   }
 
   .left-image-container {
@@ -112,5 +113,11 @@ body {
 
   .right-container {
     order: 2;
+  }
+  .perfume,
+  .name,
+  .info,
+  .prices {
+    padding-bottom: 15px;
   }
 }
